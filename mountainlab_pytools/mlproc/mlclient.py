@@ -11,6 +11,7 @@ import subprocess
 import json
 from .mljobmonitor import MLJobMonitor
 import tempfile
+import ipywidgets as widgets
             
 class MLClient:
     def __init__(self):
